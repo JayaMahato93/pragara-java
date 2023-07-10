@@ -23,7 +23,7 @@ public class SwitchCostumerCare {
                 System.out.println("French");
                 break;
             default:
-                System.out.println("Invalid");
+                System.err.println("Invalid");
         }
     }
 }

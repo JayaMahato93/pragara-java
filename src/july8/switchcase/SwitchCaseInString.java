@@ -19,7 +19,7 @@ public class SwitchCaseInString {
                 System.out.println("288 Bremner Blvd, Toronto, ON M5V 3L9");
                 break;
             default:
-                System.out.println("Invalid");
+                System.err.println("Invalid");
         }
     }
 }

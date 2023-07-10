@@ -64,7 +64,7 @@ public class SwitchCaseCalculator {
 
             break;
             default:
-                System.out.println("Invalid");
+                System.err.println("Invalid");
 
         }
     }

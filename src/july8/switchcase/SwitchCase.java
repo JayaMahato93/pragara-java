@@ -28,7 +28,7 @@ public class SwitchCase {
                     System.out.println("Switch on the white nothing");
                     break;
             default:
-                System.out.println("Wrong input");
+                System.err.println("Wrong input");
 
         }
     }

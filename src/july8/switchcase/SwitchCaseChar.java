@@ -60,7 +60,7 @@ public class SwitchCaseChar {
                 System.out.println("Modulus " + modulus);
             break;
             default:
-                System.out.println("Invalid");
+                System.err.println("Invalid");
 
         }
 
