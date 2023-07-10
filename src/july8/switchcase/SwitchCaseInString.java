@@ -1,4 +1,4 @@
-package july8;
+package july8.switchcase;
 
 import java.util.Scanner;
 
