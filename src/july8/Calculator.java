@@ -2,13 +2,13 @@ package july8;
 
 import java.util.Scanner;
 
-public class Calculater {
+public class Calculator {
     public static void main(String[] args) {
         int x;
         int y;
-
-
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to my Calculator");
         System.out.println("Press 1 for Addition");
         System.out.println("Press 2 for Subtraction");
         System.out.println("Press 3 for Multiplication");

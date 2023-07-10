@@ -8,6 +8,8 @@ public class SwitchCaseCalculator {
         int num2;
 
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to my Calculator");
         System.out.println("Press 1 for Addition");
         System.out.println("Press 2 for Subtraction");
         System.out.println("Press 3 for Multiplication");

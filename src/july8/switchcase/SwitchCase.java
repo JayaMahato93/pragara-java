@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchCase {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Welcome to my Home");
         System.out.println("Press 1 for White bulb");
         System.out.println("Press 2 for Red bulb");
         System.out.println("Press 3 for Fan");
