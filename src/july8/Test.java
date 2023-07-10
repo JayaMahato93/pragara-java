@@ -7,10 +7,7 @@ public class Test {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int num =scanner.nextInt();
-        if (num%2 == 0){
-            System.out.println("Eeven");
-        }else {
-            System.out.println("Odd");
-        }
+      String  result = (num %2 ==0) ? "even ": "odd";
+        System.out.println(result);
     }
 }
