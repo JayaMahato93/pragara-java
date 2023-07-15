@@ -1,0 +1,18 @@
+package july_11_Assignment;
+
+import java.util.Scanner;
+
+public class NumbersCubeWhile {
+    public static void main(String[] args) {
+        int i = 0;
+        int num = 0;
+        System.out.println("Enter the number of Terms: ");
+        Scanner scanner = new Scanner(System.in);
+        num = scanner.nextInt();
+
+        while (i<=num) {
+            i++;
+            System.out.println("Number is : " +i+" and cube of " +i+" is : "+(i*i*i));
+        }
+    }
+}
