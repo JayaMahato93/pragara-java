@@ -5,6 +5,13 @@ public class main {
         Animal animal = new Animal();
         animal.type= "Mammal";
         System.out.println(animal.type);
+        animal.ear = 2;
+        System.out.println(animal.ear);
+        animal.leg = 4;
+        System.out.println(animal.leg);
+        animal.eat();
+        animal.run();
+        animal.sleep();
 
 
     }
