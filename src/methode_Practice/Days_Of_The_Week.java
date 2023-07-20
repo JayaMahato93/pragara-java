@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Days_Of_The_Week {
     public static  void daysoftheweek() {
         int day;
-        String user_input;
+        String user_input = null;
+
         Scanner scanner = new Scanner(System.in);
-        user_input = scanner.next();
+
+
 
        do {
            System.out.print("Please enter a number to find a day : ");
@@ -29,6 +31,7 @@ public class Days_Of_The_Week {
                System.out.println("Invalid");
            }
            System.out.println("Do you want to continue? if yes type 'y' or 'Y' or type 'n' or 'N' to exit");
+           user_input = scanner.next();
 
        }while (user_input!=null&& !user_input.equalsIgnoreCase("N"));
 
