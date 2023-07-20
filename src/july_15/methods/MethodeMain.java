@@ -2,7 +2,7 @@ package july_15.methods;
 
 public class MethodeMain {
     public static void main(String[] args) {
-        // MethodParamArgs.sum();
+         MethodParamArgs.sum();
         // System.out.println(SumParametersDemo.sum(12, 15));
        /* System.out.println(Calculation.sum1(10,12));
         System.out.println(Calculation.sub(12,10));
