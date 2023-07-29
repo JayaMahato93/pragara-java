@@ -23,6 +23,7 @@ public class Input_In_Array {
         for (int i=0; i<num; i++)
         {
             System.out.println(array[i]);
+
         }
     }
 }
