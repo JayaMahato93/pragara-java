@@ -3,9 +3,6 @@ package july29;
 class Car1{
     private String brand;
 
-
-
-
     Car1(String brand){
         System.out.println(brand);
     }

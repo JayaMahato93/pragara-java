@@ -1,4 +1,4 @@
-package july_11_Assignment;
+package july_11_ControlStaement_Assignment1;
 
 public class PragraFor {
     public static void main(String[] args) {

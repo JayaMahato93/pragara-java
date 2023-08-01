@@ -1,8 +1,8 @@
-package july_11_Assignment;
+package july_11_ControlStaement_Assignment1;
 
 import java.util.Scanner;
 
-public class SumOfNaturalNumWhile {
+public class SumOfNaturalNumDoWhile {
     public static void main(String[] args) {
         int counter = 0;
         int num;
@@ -10,12 +10,13 @@ public class SumOfNaturalNumWhile {
         Scanner scanner =new Scanner(System.in);
         System.out.print("Input number: ");
         num = scanner.nextInt();
-        while (counter <= num) {
+        do {
             System.out.println(counter);
-            sum = sum+counter;
+            sum =sum+ counter;
+            System.out.println("The Sum of Natural Number upto "+counter+ " terms : " +sum);
             counter++;
-        }
-            System.out.println("The Sum of Natural Number upto "+ counter + " terms : " +sum);
+        }while (counter <= num);
+
 
     }
 }
