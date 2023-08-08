@@ -1,6 +1,6 @@
 package augst_5;
 
-public class Depatment extends Comapany {
+ class Depatment extends Comapany {
     String nameOfTheDepatment;
     public Depatment(String employeeName, int id, String nameOfTheDepatment) {
         super(employeeName, id);
