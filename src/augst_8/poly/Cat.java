@@ -7,7 +7,7 @@ public class Cat extends Animal{
         this.cat_meow = cat_meow;
     }
 
-    public String makesound(){
+  /*  public String makesound(){
         return  cat_meow;
     }
 
@@ -16,4 +16,10 @@ public class Cat extends Animal{
         return super.toString();
     }
 
+   */
+
+    @Override
+    public String makesound() {
+        return super.makesound();
+    }
 }

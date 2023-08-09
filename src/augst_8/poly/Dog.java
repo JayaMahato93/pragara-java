@@ -7,7 +7,7 @@ public class Dog extends Animal {
         this.dog_barks = dog_barks;
     }
 
-    public String makesound(){
+   /* public String makesound(){
         return  dog_barks;
     }
 
@@ -16,4 +16,11 @@ public class Dog extends Animal {
         return super.toString();
     }
 
+
+    */
+
+    @Override
+    public String makesound() {
+        return super.makesound();
+    }
 }
