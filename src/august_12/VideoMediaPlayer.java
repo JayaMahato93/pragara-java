@@ -1,4 +1,4 @@
-package august_12.abstractdemo;
+package august_12;
 
 public class VideoMediaPlayer extends MediaPlayer{
     @Override

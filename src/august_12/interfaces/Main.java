@@ -1,4 +1,4 @@
-package august_12.abstractdemo.interfaces;
+package august_12.interfaces;
 
 public class Main {
     public static void main(String[] args) {
